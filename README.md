@@ -1,7 +1,9 @@
 # waterflow
 chrome extension to link course codes to their respective uwflow pages
 
-installing locally:
+![waterflow-demo](https://github.com/skinsshark/waterflow/blob/master/waterflow-demo.png)
+
+### installing locally:
 
 1. save folder
 2. go to `chrome://extensions`
