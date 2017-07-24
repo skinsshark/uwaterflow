@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "waterflow",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.ucalendar.uwaterloo.ca/*/COURSE/*.html",
+        "http://www.ugradcalendar.uwaterloo.ca/*/COURSE/*.html"
+      ],
+      "css": [
+        "css/style.css"
+      ],
+      "js": [
+        "js/jquery-3.1.1.min.js",
+        "js/script.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": ["css/style.css"]
+}
