@@ -4,7 +4,7 @@
   //regex to group 1: course code, 2: other commitments to the course
   const reg = /<a name=".*"><\/a>([A-Z]* \d{3}[A-Z]?)( .*)/;
 
-  for (var i = 0; i < list_of_courses.length; i++) {
+  for (let i = 0; i < list_of_courses.length; i++) {
     $(list_of_courses[i]).addClass('outflow'); //add class for styling
 
     const course = reg.exec(list_of_courses[i].innerHTML)[1];
