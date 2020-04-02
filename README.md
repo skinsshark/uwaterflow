@@ -1,7 +1,7 @@
-# waterflow
+# uwaterflow
 chrome extension to link course codes to their respective uwflow pages
 
-![waterflow-demo](https://github.com/skinsshark/waterflow/blob/master/waterflow-demo.png)
+![uwaterflow-demo](https://github.com/skinsshark/waterflow/blob/master/waterflow-demo.png)
 
 ### installing locally:
 
